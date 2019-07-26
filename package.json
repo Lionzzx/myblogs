@@ -1,0 +1,22 @@
+{
+  "name": "myvuepress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev pcdocs",
+    "dev:h5": "vuepress dev h5docs",
+    "dev:react": "vuepress dev reactdocs",
+    "dev:vscode": "vuepress dev vscode",
+    "build": "vuepress build h5docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.0.2"
+  }
+}
